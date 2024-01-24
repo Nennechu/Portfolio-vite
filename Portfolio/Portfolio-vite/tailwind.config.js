@@ -22,7 +22,8 @@ export default {
         'tangerine': '#F28500',
       },
       fontFamily:{
-        'josefin':['Josefin','sans-serif']
+        'josefin':['Josefin','sans-serif'],
+        'open':['Open','sans-serif'],
       },
     },
  },

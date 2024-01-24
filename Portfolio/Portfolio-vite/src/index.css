@@ -4,11 +4,11 @@
 
 ::-webkit-scrollbar{
   width:1em;
-  height: 1em;
+  height: 2em;
 }
 
 ::-webkit-scrollbar-track{
-  background: #efeaa5;
+  background: #273c2f;
   border-radius: 100vw;
   margin-block:0.5em;
 }
@@ -17,4 +17,8 @@
   background: #f1f8e9;
   border: 0.25em;
   border-radius: 100vw;
+}
+
+html {
+  scroll-behavior: smooth;
 }

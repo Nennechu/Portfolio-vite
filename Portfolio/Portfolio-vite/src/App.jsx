@@ -11,17 +11,17 @@ function App() {
  
 
   return (
-    <div className='bg-neon5 min-h-screen'>
+    <div className="flex flex-col h-screen bg-neon5">  
       <Router>
         <Navbar/>
-
+        <main className="flex-grow bg-neon5">
         <Routes>
         <Route exact path='/' element={<Home/>}/>
         <Route path='/services' element={<Services/>}/>
         <Route path='/portfolio' element={<Portfolio/>}/>
         <Route path='/contact' element={<Contact/>}/>
         </Routes>
-
+        </main>
         <Footer/>
       </Router>
     </div>
