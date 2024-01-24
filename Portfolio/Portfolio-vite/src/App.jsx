@@ -6,6 +6,7 @@ import Services from './Pages/2.services/Services'
 import Portfolio from './Pages/3,portfolio/Portfolio'
 import Contact from './Pages/4.contact/Contact'
 import Footer from './Components/Footer/Footer'
+import React from 'react';
 
 function App() {
  

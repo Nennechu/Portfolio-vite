@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+import React from 'react';
 const Card = ({ imageSrc, title, description, tags, link,more }) => (
   <a href={link} target="_blank" rel="noopener noreferrer" className="w-full md:w-1/2 lg:w-1/4 p-4 transform transition-transform hover:scale-105 relative">
     <div className="max-w-sm mx-auto rounded overflow-hidden shadow-lg bg-neon3 hover:opacity-70 relative">
@@ -19,6 +21,15 @@ const Card = ({ imageSrc, title, description, tags, link,more }) => (
     </div>
   </a>
 );
+
+Card.propTypes = {
+    imageSrc: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    tags: PropTypes.arrayOf(PropTypes.string).isRequired,
+    link: PropTypes.string.isRequired,
+    more: PropTypes.string.isRequired,
+  };
 
 {/* Portfolio holds all the card data*/}
 const Portfolio = () => {

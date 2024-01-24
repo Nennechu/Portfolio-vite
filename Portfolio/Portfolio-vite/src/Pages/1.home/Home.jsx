@@ -25,25 +25,25 @@ const Home = () => {
       {/* Top Section with Animation */}
       <div id="scrollable-content" className="h-screen flex flex-col items-center justify-center rounded-3xl overflow-hidden">
         <motion.p
-          className='text-9xl font-bold font-open mt-[-200px] text-neon6'
+          className='text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-bold font-open mt-[-100px] md:mt-[-150px] lg:mt-[-200px] text-neon6'
           animate={controlsHello}
         >
           HI THERE, I'M
         </motion.p>
         <motion.p
-          className='text-9xl font-bold font-open text-neon6'
+          className='text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-bold font-open text-neon6'
           animate={controlsName}
         >
           NATHAN CHUGITO.
         </motion.p>
         <motion.p
-          className=' mt-[40px] text-xl font-medium  text-neon6'
+          className='mt-4 text-base md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl font-medium text-center sm:text-left text-neon6'
           animate={controlsName}
         >
-          Student | Frontend Devloper | Software Engineer
+          Student | Frontend Developer | Software Engineer
         </motion.p>
         <motion.p
-          className=' text-xl font-medium  text-neon6'
+          className='text-base md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl font-medium text-center sm:text-left text-neon6'
           animate={controlsName}
         >
           based in Arlington, Texas

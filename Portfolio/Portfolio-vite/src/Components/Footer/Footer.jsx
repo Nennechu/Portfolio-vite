@@ -1,5 +1,5 @@
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
-
+import React from 'react';
 const Footer = () => {
   return (
     <div className=' flex flex-col '>

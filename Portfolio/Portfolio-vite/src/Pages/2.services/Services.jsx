@@ -1,5 +1,4 @@
-import React from 'react'
-
+import React from 'react';
 const Services = () => {
   return (
     <div id="scrollable-content" className="h-[1000px] overflow-y-auto">

@@ -1,6 +1,6 @@
 import { Disclosure, Menu } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-
+import React from 'react';
 const navigation = [
   { name: 'Home', href: '/', current: true },
   { name: 'Services', href: '/services', current: false },

@@ -1,4 +1,4 @@
-import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import React from 'react';
 const Contact = () => {
     return (
       <div className="h-[835px]">
