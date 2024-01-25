@@ -34,7 +34,7 @@ const Home = () => {
           className='text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-bold font-open text-neon6'
           animate={controlsName}
         >
-          NATHAN CHUGITO.
+          JOHN DOE
         </motion.p>
         <motion.p
           className='mt-4 text-base md:text-xl lg:text-xl xl:text-2xl 2xl:text-3xl font-medium text-center sm:text-left text-neon6'
